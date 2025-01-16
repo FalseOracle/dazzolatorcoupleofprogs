@@ -87,6 +87,12 @@ class GCD_LCM
 
             if (inputs.Length == 2 && int.TryParse(inputs[0], out int number1) && int.TryParse(inputs[1], out int number2))
             {
+                if (number1 == 0 || number2 == 0) // проверка деления на ноль
+                {
+                    Console.WriteLine("Ошибка: одно из чисел равно нулю. Введите два ненулевых целых числа.");
+                    continue; // запрашиваем ввод заново
+                }
+
                 int gcd = CalculateGCD(number1, number2);
                 int lcm = number1 * number2 / gcd;
                 Console.WriteLine($"НОД: {gcd}, НОК: {lcm}");
@@ -105,6 +111,7 @@ class GCD_LCM
     //некие подсчёты для работы задачи и подсчёта
     static int CalculateGCD(int a, int b) => b == 0 ? a : CalculateGCD(b, a % b);
 }
+
 
 
 
