@@ -19,11 +19,14 @@
 Выходные данные: НОД и НОК этих чисел.
 
 Скриншоты с примером работы программы:
+
 ![image](https://github.com/user-attachments/assets/0ba62351-563b-43a4-86bb-cb2c59e06033)
 ![image](https://github.com/user-attachments/assets/a63de949-422c-4c92-822a-bba087053e60)
 
 
 При делении на 0:
+
+
 ![image](https://github.com/user-attachments/assets/60857a00-a189-4290-8561-a36241416272)
 
 2. Сумма цифр числа
@@ -32,11 +35,14 @@
 Выходные данные: Сумма цифр этого числа.
 
 Скриншоты с примером работы программы:
+
 ![image](https://github.com/user-attachments/assets/9d06e380-1cb4-4b95-9dde-d407b145f729)
 ![image](https://github.com/user-attachments/assets/9529b2b8-50da-4c1a-8b37-decb9c235f6d)
 
 
 Вывод при ошибке:
+
+
 ![image](https://github.com/user-attachments/assets/09c8b657-255d-40e3-ab2a-60c270710790)
 
 3. Переворот числа
@@ -45,11 +51,14 @@
 Выходные данные: Перевёрнутое число.
 
 Скриншоты с примером работы программы:
+
 ![image](https://github.com/user-attachments/assets/349d197e-9993-4ee8-afcb-936cd70a0109)
 ![image](https://github.com/user-attachments/assets/18f3670d-f83b-44f4-a54e-f791a4b8c599)
 
 
 Ввод с ошибкой: 
+
+
 ![image](https://github.com/user-attachments/assets/8f75e5bd-8afe-478f-ab27-1f25cf693cef)
 
 4. Число из нечётных цифр 
@@ -58,14 +67,19 @@
 Выходные данные: Число, состоящее только из нечётных цифр введённого числа.
 
 Скриншоты с примером работы программы:
+
 ![image](https://github.com/user-attachments/assets/12345e69-6efe-474c-b785-27ddf909aace)
 
 
 При отсутсвии чётных цифр:
+
+
 ![image](https://github.com/user-attachments/assets/a0c2f932-2e03-4f6e-8acf-57682d39eb32)
 
 
 Проверка на неправильный ввод:
+
+
 ![image](https://github.com/user-attachments/assets/80b1a046-b9f1-4d14-89d0-578b737a0d81)
 
 
@@ -75,11 +89,14 @@
 Выходные данные: Факториал числа.
 
 Скриншоты с примером работы программы:
+
 ![image](https://github.com/user-attachments/assets/a4d6caf7-091f-4ce5-beab-115bef8aa60e)
 ![image](https://github.com/user-attachments/assets/8f309cde-dffe-4a27-82f8-d062a3e7af5d)
 
 
 Пример неправильного ввода:
+
+
 ![image](https://github.com/user-attachments/assets/e38554e9-3b0a-487b-8326-a50ba9c040a9)
 
 6. Угадай число
@@ -88,6 +105,7 @@
 Выходные данные: Подсказки («больше», «меньше») и поздравление при верном ответе.
 
 Скриншоты с примером работы программы:
+
 ![image](https://github.com/user-attachments/assets/685f59c6-ba65-4f6e-9d79-6c2169ae8d67)
 
 7. Статистика чисел
@@ -96,11 +114,14 @@
 Выходные данные: Среднее значение, медиана, стандартное отклонение.
 
 Скриншоты с примером работы программы:
+
 ![image](https://github.com/user-attachments/assets/43da65f0-c0a6-468c-bbb1-da6571ffe1cf)
 ![image](https://github.com/user-attachments/assets/f4f1bc96-1c76-44c7-aa79-6056d25e4366)
 
 
 Пример неправильного ввода:
+
+
 ![image](https://github.com/user-attachments/assets/9a035451-c4f5-4ce6-bb35-6b554234628c)
 ![image](https://github.com/user-attachments/assets/22f1f90c-7804-425f-9737-8727a9120ec2)
 
@@ -110,12 +131,15 @@
 Выходные данные: Эквивалент суммы в EUR и RUB.
 
 Скриншоты с примером работы программы:
+
 ![image](https://github.com/user-attachments/assets/e1e12219-7cb6-4ab6-b09a-f46312a01116)
 ![image](https://github.com/user-attachments/assets/a3fd180b-37b4-4263-8c0f-1ee87d19c2a1)
 ![image](https://github.com/user-attachments/assets/9418676f-346c-4403-916c-040609ebb185)
 
 
 Пример неправильного ввода:
+
+
 ![image](https://github.com/user-attachments/assets/ccfe0c26-71b9-4147-8244-acc16c8fa056)
 
 9. Календарь событий 
@@ -124,11 +148,14 @@
 Выходные данные: Список запланированных событий.
 
 Скриншоты с примером работы программы:
+
+
 ![image](https://github.com/user-attachments/assets/96ce2bc9-ebef-49a1-bd77-edae4cb8b92f)
 ![image](https://github.com/user-attachments/assets/958f3d7d-10d9-4486-a1c0-d3bfdd9211ea)
 
 
 Пример неправильного ввода:
+
 ![image](https://github.com/user-attachments/assets/861a3656-c3fe-4a1d-982b-19e047bc11d0)
 
 В итоге могу сказать что делал эти задачи при использовании локально-развёрнутой нейросети и с документацией от Microsoft. Работа помогла мне отточить навыки "промптов", увеличила моё понимание кода и исправление ошибок, откладку и тестирование программы.
